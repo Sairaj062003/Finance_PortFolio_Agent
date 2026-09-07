@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 class Settings(BaseSettings):
     GEMINI_API_KEY: str = ""
-    DEFAULT_MODEL: str = "gemini-3.6-flash"
+    DEFAULT_MODEL: str = "gemini-3.5-flash"
     PORTFOLIO_DATA_PATH: Path = BASE_DIR / "data" / "portfolio.json"
 
     model_config = SettingsConfigDict(

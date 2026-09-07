@@ -17,6 +17,7 @@ def create_agent_node(tools: List[BaseTool], model_name: str = None, temperature
         model=selected_model,
         google_api_key=settings.GEMINI_API_KEY,
         temperature=temperature,
+        max_retries=3,
     )
     llm_with_tools = llm.bind_tools(tools)
 
