@@ -1,1 +1,3 @@
-﻿
+from .system_prompt import FINANCIAL_ADVISOR_SYSTEM_PROMPT
+
+__all__ = ["FINANCIAL_ADVISOR_SYSTEM_PROMPT"]
