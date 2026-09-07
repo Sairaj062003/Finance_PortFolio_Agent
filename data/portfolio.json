@@ -1,0 +1,53 @@
+{
+    "account_id": "ACC-1001",
+    "currency": "USD",
+    "cash_balance": 1500.00,
+    "holdings": [
+        {
+            "symbol": "AAPL",
+            "company_name": "Apple Inc.",
+            "quantity": 10.0,
+            "average_buy_price": 180.50,
+            "sector": "Technology"
+        },
+        {
+            "symbol": "MSFT",
+            "company_name": "Microsoft Corporation",
+            "quantity": 5.0,
+            "average_buy_price": 405.00,
+            "sector": "Technology"
+        },
+        {
+            "symbol": "GOOGL",
+            "company_name": "Alphabet Inc.",
+            "quantity": 8.0,
+            "average_buy_price": 165.25,
+            "sector": "Communication Services"
+        },
+        {
+            "symbol": "NVDA",
+            "company_name": "NVIDIA Corporation",
+            "quantity": 15.0,
+            "average_buy_price": 115.00,
+            "sector": "Technology"
+        }
+    ],
+    "transactions": [
+        {
+            "id": "TXN-01",
+            "symbol": "AAPL",
+            "type": "BUY",
+            "quantity": 10,
+            "price": 180.50,
+            "date": "2024-01-15"
+        },
+        {
+            "id": "TXN-02",
+            "symbol": "MSFT",
+            "type": "BUY",
+            "quantity": 5,
+            "price": 405.00,
+            "date": "2024-02-10"
+        }
+    ]
+}
